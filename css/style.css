@@ -277,7 +277,6 @@
         margin-top: 25px;
         margin-left: 120px;
         text-align: center;
-        border: 2px solid rgb(73, 75, 102);
         border-radius: 10px;
         left: -15px;
     }
@@ -286,8 +285,11 @@
         content: "";    
         top: 0;
         left: 0;
+        width: 100%;
+        height: 100%;
         background-color: rgb(0, 0, 0);
-        opacity: 0;
+        opacity: 0; 
+        border-radius: 10px;       
         z-index: 10;
     }
     .more-feature:hover::after{
@@ -333,7 +335,7 @@
     .show-over { position: relative;  z-index: 15; }
     /* background for more features */
     .bg1 { background: url("../images/more-features/Community-Support.jpg") no-repeat center; background-size: cover; }
-    .bg2 { background: url("../images/more-features/Mobile-Friendly.jpg") no-repeat center; background-size: cover; }
+    .bg2 { background: url("../images/more-features/Mobile-Friendly.webp") no-repeat center; background-size: cover; }
     .bg3 { background: url("../images/more-features/24-7-Support.jpg") no-repeat center ; background-size: cover; }
     .bg4 { background: url("../images/more-features/Secure-Payments.jpg") no-repeat center; background-size: cover; }
     .bg5 { background: url("../images/more-features/Quality-Content.jpg") no-repeat center; background-size: cover; }
